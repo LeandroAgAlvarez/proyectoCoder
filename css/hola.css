@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+}
+
+#gamer{
+	background-position: top;								
+	background-image: url("../img/fondogamer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.head{
+	width: 100%;
+	height: 40vh;
+	position: absolute;
+	background-position: bottom;									
+	background-image: url("../img/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#headerp{
+	position: sticky;
+	width: 100%;
+    height: 40vh;
+	margin:0;
+    right: 0;
+	top:0;
+	z-index: 99;
+}
+#headers{
+	position: sticky;
+	margin: 0;
+	width: 100%;
+	top:0;
+	right: 0;
+	z-index: 99;
+	background-position: bottom;
+	background-image: url("../img/banner2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#logo{
+	width: 100px;
+}
+#linkimg{
+    width: 100%;
+}
+#links{
+	top:0;
+}
+#link{
+	font-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    border: solid;
+	border-color: black;	
+}
+#sponsors{
+	width: 100%;
+	margin:0;
+	background: linear-gradient(to bottom, black, red);
+}
+#sponsors a img{
+	width: 100%;
+}
+#nosotrostabla{
+	color: black;
+	font-size: 25px;
+	width: 100%;
+
+}
+#nosotrostabla img{
+	border: solid;
+	border-color: darkred;
+	border-width: 3px;
+	width: 100%;
+}
+#seo {
+	width: 100%;
+}
+#nosotrostabla div{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 30px;
+}
+#formulario {
+	color: black;
+	font-size: 25px;
+	width: 100%;
+}
+#formulario div{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 5px;
+}
+#formulario p, #formulario label{
+	background-color: #ffffff99;
+}
+#nosotrostabla p, #nosotrostabla a, #nosotrostabla label{
+	background-color: #ffffff99;
+}
+/*#tiendatabla {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 5px;
+	color: black;
+	font-size: 100%;
+}*/
+/*#tiendatabla div{
+	display:flex;
+	margin: 5px;
+}*/
+h2{
+	text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),										
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+	color: red;
+	font-size: 40px;
+	margin: 0;
+}
+
+#jugadores {
+	width: 100%;
+}
+#jugador {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 100%;
+	background-color: #ffffff99;
+	margin: 5px;
+}
+#jugador img {
+	width: 100%;
+}
+#articulo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 150%;
+	background-color: #ffffff99;
+	margin: 5px;
+}
+
+#agregar {
+	width: 30px;
+	height: 30px;
+}
+#articulos{
+	width: 100%;
+}
+#carrito {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+#carrito img{
+	width: 70px;
+	margin-right: 60px;
+}
+#mail, #nombre{
+	width: 100%;
+}
+#navitem{
+	margin: 15px;
+}
+#navimg{
+	width: 50px;
+}

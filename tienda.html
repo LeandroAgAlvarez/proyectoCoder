@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/hola.css">
+    <title>Ønce Esports</title>
+</head>
+<body>
+    <header class="row justify-content-around" id="headers">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo1.png" alt="logo"></a>
+              <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#contenidoNavbar" aria-controls="contenidoNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="contenidoNavbar">
+                <ul class="container justify-content-around navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item" id="navitem">
+                    <a class="btn btn-danger" href="index.html">Ønce Esports</a>
+                  </li>
+                  <li class="nav-item" id="navitem">
+                    <a class="btn btn-danger" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item" id="navitem">
+                    <a class="btn btn-danger" href="equipos.html">Equipos</a>
+                  </li>
+                  <li class="nav-item" id="navitem">
+                    <a class="btn btn-danger active" href="tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item" id="navitem">
+                    <a class="navbar-brand"><img id="navimg" src="img/ig.png" alt="Instagram"></a>
+                  </li>
+                  <li class="nav-item" id="navitem">
+                    <a class="navbar-brand"><img id="navimg" src="img/twit.png" alt="Twitter"></a>
+                  </li>
+                  <li class="nav-item" id="navitem">
+                    <a class="navbar-brand"><img id="navimg" src="img/twitch.png" alt="Twitch"></a>
+                  </li>
+                  <li class="nav-item" id="navitem">
+                    <a class="navbar-brand"><img id="navimg" src="img/yt.png" alt="Youtube"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="row justify-content-around align-items-center" id="sponsors">
+        <a class="col-3 col-lg-2 col-xl-1" href="https://www.logitechg.com/"><img src="img/logitech.png" alt="Logitech"></a>
+        <a class="col-3 col-lg-2 col-xl-1" href="https://www.aorus.com/es-ar"><img src="img/aorus.png" alt="Aorus"></a>
+        <a class="col-3 col-lg-2 col-xl-1" href="https://www.gigabyte.com/"><img src="img/gigabyte.png" alt="Gigabyte"></a>
+        <a class="col-3 col-lg-2 col-xl-1" href="https://www.mcdonalds.com.ar/"><img src="img/McDonalds.png" alt="McDonalds"></a>
+    </div>
+    <main id="gamer">
+        <h2 class="row justify-content-center">Nuestros artículos</h2>
+        <div id="carrito"><img src="img/carrito.png" alt="Carrito"></div>
+        <div class="row justify-content-around align-items-center" id="articulos">
+            <div class="col-10 col-sm-10 col-lg-5 col-xl-3" id="articulo">
+                <div id="carruselcamiseta" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/once1.jpg" class="d-block w-100"  alt="Camiseta Once Frente">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/once2.jpg" class="d-block w-100"  alt="Camiseta Once Dorso">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carruselcamiseta" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carruselcamiseta" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div>
+                    <p>Camiseta Ønce Esports</p>
+                </div>
+                <div>
+                    <p>$15.000</p>
+                </div>
+                <div>
+                    <img id="agregar" src="img/menos.png" alt="Restar artículo">
+                    <img id="agregar" src="img/mas.png" alt="Sumar artículo">
+                </div>
+                <div>
+                    <p>Talle:</p>  
+                </div>
+                <div>
+                                          
+                    <label for="s">S</label><input class="col-1" type="radio" name="talle" id="s">
+                    <label for="m">M</label><input class="col-1" type="radio" name="talle" id="m">
+                    <label for="l">L</label><input class="col-1" type="radio" name="talle" id="l">
+                    <label for="xl">XL</label><input class="col-1" type="radio" name="talle" id="xl">
+                </div>
+                <div>
+                    <button class="btn btn-danger" type="submit">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-lg-5 col-xl-3" id="articulo">
+                <div id="carruselsmd" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/smd1.jpg" class="d-block w-100"  alt="Camiseta SMD Frente">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/smd2.jpg" class="d-block w-100"  alt="Camiseta SMD Dorso">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carruselsmd" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carruselsmd" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div>
+                    <p>Camiseta Suck my Duck</p>
+                </div>
+                <div>
+                    <p>$12.000</p>
+                </div>
+                <div>
+                    <img id="agregar" src="img/menos.png" alt="Restar artículo">
+                    <img id="agregar" src="img/mas.png" alt="Sumar artículo">
+                </div>
+                <div>
+                    <p>Talle:</p>
+                </div>
+                <div>
+                    
+                    <label for="s">S</label><input type="radio" name="talle" id="s">
+                    <label for="m">M</label><input type="radio" name="talle" id="m">
+                    <label for="l">L</label><input type="radio" name="talle" id="l">
+                    <label for="xl">XL</label><input type="radio" name="talle" id="xl">
+                </div>
+                <div>
+                    <button class="btn btn-danger" type="submit">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-lg-5 col-xl-3" id="articulo">
+                <div id="carruselfaker" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/mufaker1.jpg" class="d-block w-100"  alt="Juguete Faker Frente">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/mufaker2.png" class="d-block w-100"  alt="Juguete Faker Dorso">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/faker.png" class="d-block w-100"  alt="Faker">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carruselfaker" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carruselfaker" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div>
+                    <p>
+                        Juguete de Faker
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        $1.000.000
+                    </p>
+                </div>
+                <div>
+                    <img id="agregar" src="img/menos.png" alt="Restar artículo">
+                    <img id="agregar" src="img/mas.png" alt="Sumar artículo">
+                </div>
+                <div>
+                    <button class="btn btn-danger" type="submit">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
